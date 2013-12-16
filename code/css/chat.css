@@ -1,0 +1,23 @@
+#chatwindow
+{
+	float: left;
+	position: fixed;
+}
+
+#chatarea
+{
+	border: none;
+	background-color:transparent;
+	color: #FFFFFF;
+}
+
+.channelbutton
+{
+	background-color: #3d444c;
+	width: 70px;
+}
+
+.chatcolumn
+{
+	float:left;
+}

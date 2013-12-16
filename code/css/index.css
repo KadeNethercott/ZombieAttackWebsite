@@ -1,0 +1,61 @@
+.inputForm{
+ 	width: 175px;
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 10px #000000;
+ 	margin-right: 10px;
+ 	padding: 2px 2px;
+ 	margin-bottom: 20px;
+ }
+
+ .inputForm:hover{
+ 	width: 175px;
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 10px #000000;
+ 	margin-right: 10px;
+ 	padding: 2px 2px;
+ 	margin-bottom: 20px;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 2px 2px 10px #ED1C24;;
+ }
+
+ .inputForm:focus{
+ 	width: 175px;
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 10px #000000;
+ 	margin-right: 10px;
+ 	padding: 2px 2px;
+ 	margin-bottom: 20px;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 2px 2px 5px #ED1C24;;
+ }
+
+ .btn-primary {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 10px #000000;
+}
+ .btn-primary:hover{
+ 	
+ 	border-style: solid;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 4px 4px 15px #ED1C24;
+
+ };
+
+.btn-small {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.btn-small:hover{
+ 	
+ 	border-style: solid;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 4px 4px 15px #ED1C24;
+
+ };
+ 
+ 

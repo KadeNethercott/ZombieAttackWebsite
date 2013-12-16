@@ -1,0 +1,202 @@
+
+.maps{
+
+	margin-top:5px;
+	float: left;
+	min-width: 100px;
+	height: 30px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	background-color: #404040;
+	
+	text-align: center;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+.maps:hover{
+	
+	margin-top:5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+	min-width: 100px;
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #98D2B1;
+	
+	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: inset 2px 2px 10px #000000;
+
+}
+.map{
+	position: relative;
+
+	margin-top: 20px;
+	background-color: #505050;
+	box-shadow: 10px 10px 15px #000000;
+}
+.mapNamesWrap{
+	position: relative;
+	border-radius: 10px;
+	background-color: #B8B8A7;
+
+	margin: 20px 20px 0px -20px;
+
+	padding: 20px 20px 30px 45px;
+	width: 100%;
+	display: inline-block;
+	
+	
+}
+.topMap{
+	position: relative;
+
+	width: 100%;
+	display: inline-block;
+}
+.playButton{
+
+	margin-top:5px;
+	float: left;
+	min-width: 100px;
+	height: 30px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ED1C24;
+	background-color: #404040;
+	
+	text-align: center;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+.playButton:hover{
+	
+	margin-top:5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+	min-width: 100px;
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #ED1C24;
+	
+	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: inset 2px 2px 10px #000000;
+
+}
+.h1MapCanvas{  
+	margin-right: 50px;
+	color:  #ED1C24;
+	text-align: center;
+    font-size: 20px;  
+    	font-weight: bold;
+    margin-top: 15px;
+    letter-spacing: 10px;
+   
+  } 
+  h1{  
+	
+	text-align: center;
+    font-size: 30px;  
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+   
+  } 
+
+ .inputForm{
+ 	width: 300px;
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 10px #000000;
+ 	margin-right: 10px;
+ 	padding: 2px 2px;
+ }
+  .inputForm:hover{
+ 	width: 300px;
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 10px #000000;
+ 	margin-right: 10px;
+ 	padding: 2px 2px;
+ 	
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 2px 2px 10px #ED1C24;;
+ }
+  .inputForm:focus{
+ 	width: 300px;
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 10px #000000;
+ 	margin-right: 10px;
+ 	padding: 2px 2px;
+ 	
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 2px 2px 5px #ED1C24;;
+ }
+ .dropForm{
+ 	width: 135px;	
+ 	border-radius: 5px;
+ 	padding: 10px 8px 8px 8px;
+ 	margin-right: 10px;
+ 	margin-top: 10px;
+
+ }
+ .dropForm:hover{
+ 	width: 135px;	
+ 	border-radius: 5px;
+ 	padding: 10px 8px 8px 8px;
+ 	margin-right: 10px;
+ 	margin-top: 10px;
+ 	border-style: solid;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 2px 2px 10px #ED1C24;;
+
+ }
+ .dropForm:focus{
+ 	width: 135px;	
+ 	border-radius: 5px;
+ 	padding: 10px 8px 8px 8px;
+ 	margin-right: 10px;
+ 	margin-top: 10px;
+ 	border-style: solid;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 4px 4px 15px #ED1C24;;
+ }
+
+ .searchForm{
+ 	margin-bottom: 10px;
+ 	margin-top: 10px;
+ }
+.btn-primary {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+ .btn-primary:hover{
+ 	
+ 	border-style: solid;
+ 	border-color: #ED1C24;
+ 	box-shadow: inset 4px 4px 15px #ED1C24;
+
+ };
+ 

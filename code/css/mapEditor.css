@@ -1,0 +1,531 @@
+div#users-contain { 
+	width: 350px; 
+	margin: 20px 0; 
+}
+
+div#users-contain table { 
+	margin: 1em 0; 
+	border-collapse: collapse; 
+	width: 100%; 
+}
+
+div#users-contain table td, div#users-contain table th { 
+	border: 1px solid #eee; 
+	padding: .6em 10px; 
+	text-align: left; 
+}
+
+.ui-dialog .ui-state-error { 
+ 	padding: .3em; 
+
+}
+
+.ui-dialog-content{
+	
+	margin-top: 10px;
+}
+
+body {
+	
+
+}
+.map{
+	margin-top: 20px;
+	background-color: #505050;
+	box-shadow: 10px 10px 15px #000000;
+}
+.tiles{
+	background-color: #505050;
+	position:relative;
+	float: left;
+	box-shadow: 10px 10px 15px #000000;
+	
+}
+.tilesUpper{
+	
+	position: absolute;
+	left: 0%;
+	top: 20%;
+	/*background-color: #FFFFFF;
+	opacity: .4;*/
+	z-index: 20;
+}
+.span {
+	padding-right:5px;
+}
+.errors{
+
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #404040;
+	color: #D80000;
+	border: 1px solid; 
+	padding:5px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-radius: 10px;
+}
+
+.clickedMapName{
+
+	display: inline-block;
+	margin-left: 6px;
+	margin-top:6px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 8px;
+	font-size: 18px;
+	color: #33CC33;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.clickedMapName:hover{
+
+	display: inline-block;
+	margin-left: 6px;
+	margin-top: 6px;
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #FFFF66;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.clickedPName{
+
+	display: inline-block;
+	margin-left: 6px;
+	margin-top:6px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 8px;
+	font-size: 18px;
+	color: #33CC33;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.clickedPName:hover{
+
+	display: inline-block;
+	margin-left: 6px;
+	margin-top: 6px;
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #FFFF66;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.selectedMapName{
+
+	display: inline-block;
+	margin-left: 6px;
+	margin-top: 6px;
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #FFFF66;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.ownedMaps{
+
+	margin-top:6px;
+}
+.d-forms {
+	display: none;
+	padding-top: 10px;
+}
+
+.hotK{
+	margin-left: 70px;
+	font-size: 15px;
+	color: #FFFF66;
+	font-weight: bold;
+	letter-spacing: 3px;
+
+}
+.mapsTitle{
+	text-align: center;
+	clear: both;
+	font-size: 17px;
+	color: #FFFF66;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding-top: 5px;
+	letter-spacing: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom: none;
+	opacity: 0.8;
+	
+}
+
+h1 {
+text-align: center;
+
+}
+
+.white {
+border-color: #C0C0C0;
+
+}
+.hero-unit {
+
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-right:10px;
+
+	margin-top: 10px;
+	margin-right:10px;
+	margin-left:20px;
+
+	background-color: #D0D0D0;
+
+}
+.logo2 {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;	
+}
+
+.mainNav {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+
+}
+
+.tC{
+	display: none;
+	margin-top: 35px;
+}
+.mC{
+	display: none;
+}
+
+.layer{
+ 
+ 	display: inline-block;
+ 	margin-top: 10px;
+ }
+
+
+.h1MapCanvas{  
+	margin-right: auto;
+	margin-left: auto;
+	 
+    font-size: 30px;  
+    	font-weight: bold;
+
+    letter-spacing: 20px;
+   
+  }  
+.dropdown .dropdown-toggle .caret {
+	border-top-color: #ED1C24;
+}
+.dropdown .dropdown-toggle #caret2 {
+	border-top-color: #98D2B1;
+
+}	
+.red a{
+
+	text-decoration:none;
+	color: #ED1C24;
+	font-size: 18px;
+	font-weight: bold;
+	}
+	
+.green a {
+
+	max-width: 85px;
+	margin-right: 0;
+	padding-right: 0;
+	margin-left: 35px;
+	text-decoration:none;
+	color: #98D2B1;
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+label{
+	font-size: 18px;
+	float: left;
+	margin-bottom: 5px;
+	padding-left: 50px;
+	margin-top: 5px;
+	letter-spacing: 3px;
+	
+}
+input{
+	margin-bottom: 5px;
+	margin-right: 40px;
+	padding-right: 50px;
+	width: 150px;
+	float: right;
+	
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+background-image: none;
+background-color: #98D2B1;
+
+}
+
+.layersB{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+
+.layersM{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+.layersM:hover{
+
+	
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #98D2B1;
+	border-radius: 5px;
+	
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.layersT{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+
+
+.layersE{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 5px 5px 8px #000000;
+}
+
+.tools{
+ 
+ 
+ }
+.col-lg-5{
+	max-width:470px;
+	max-height: 430px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.col-lg-7{
+	
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.displayLevel{
+
+	margin-top: 20px;	
+	margin-left: 450px;
+	
+	font-weight: bold;
+	font-size: 20px;
+    letter-spacing: 10px;
+	color: #ED1C24;
+ }
+ .layerSelected{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #98D2B1;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #404040;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+.layerSelected:hover{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 0px 0px 0px #000000;
+	
+}
+.layerUnselected{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+
+.layerUnselected:hover{
+
+	margin-top:13px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+
+	padding-left: 5px;	
+	padding-right: 5px;
+	color: #404040;
+	background-color: #98D2B1;
+	border-radius: 5px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 0px 0px 0px #000000;
+	
+}
+.toolSelected{
+
+	float: right;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	background-color: #98D2B1 ;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #404040;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+.toolSelected:hover{
+
+	float: right;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1; 
+	box-shadow: 0px 0px 0px #000000;
+	
+}
+.toolUnselected{
+
+	float: right;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	background-color: #404040;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #98D2B1;
+	box-shadow: 5px 5px 8px #000000;
+	
+}
+.toolUnselected:hover{
+
+	float: right;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	background-color: #98D2B1 ;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #404040;
+	box-shadow: 0px 0px 0px #000000;
+
+	
+}
+
+.toolsRight{
+	float: right;
+}
