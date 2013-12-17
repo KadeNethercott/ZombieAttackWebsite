@@ -1,3 +1,5 @@
+
+<!-- @author Jeremy desser -->
 <!DOCTYPE html>
 <?php
   session_start();
@@ -6,7 +8,7 @@
   if(isset($_SESSION['password']))
     $password = $_SESSION['password'];
 
-  $mysqli = new mysqli("129.123.224.49", "zombieattack", "zattacksite", "cs3450");
+  $mysqli = new mysqli("129.123.224.49", "zombieattack", "*****", "*****");
   
 	if (isset($_POST['delete'])) {
 		foreach($_POST['checkbox'] as $del_id){

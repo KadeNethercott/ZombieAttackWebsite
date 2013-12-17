@@ -1,3 +1,4 @@
+<!-- @author Nathan Merkley -->
 <?php
 	session_start();
 	
@@ -18,8 +19,8 @@
 		$loginUser = htmlentities($_POST['username']);
 		$loginPass = hash("md5", htmlentities($_POST['password']));
 		
-		$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
-		//$sql = new mysqli("129.123.224.49", "zombieattack", "zattacksite", "cs3450");
+		$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
+		//$sql = new mysqli("129.123.224.49", "zombieattack", "*****", "*****");
 		if ($sql->connect_errno) 
 		{
 			printf("Connect failed: %s\n", $mysqli->connect_error);

@@ -1,3 +1,5 @@
+
+<!-- @author Nathan Merkley -->
 <?php
 	session_start();
 	
@@ -138,8 +140,8 @@
 <?php
 function postmap($mapID, $owner) //Largely copied from database.php
 {
-	//$sql = new mysqli("129.123.224.49", "zombieattack", "zattacksite", "cs3450");//Set up the sql connection
-	$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
+	//$sql = new mysqli("129.123.224.49", "zombieattack", "*****", "*****");//Set up the sql connection
+	$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
 	
 	if ($sql->connect_errno) 
 		return array("success" => false);

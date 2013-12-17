@@ -1,3 +1,5 @@
+
+<!-- @author Nathan Merkley -->
 <?php
 	session_start();
 	
@@ -27,8 +29,8 @@
 	
 	if($validusername && $validpassword)
 	{
-		$sql = new mysqli("129.123.224.49", "zombieattack", "zattacksite", "cs3450");//Set up the sql connection
-		//$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
+		$sql = new mysqli("129.123.224.49", "zombieattack", "*****", "*****");//Set up the sql connection
+		//$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
 		if ($sql->connect_errno) 
 		{
 			printf("Connect failed: %s\n", $mysqli->connect_error);

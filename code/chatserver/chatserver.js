@@ -1,3 +1,4 @@
+//@author Nathan Merkley
 'use strict';
 
 var commands = 

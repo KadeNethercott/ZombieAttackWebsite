@@ -1,3 +1,6 @@
+
+
+/*@author Michael Kushlan*/
  $(document).ready(function() {
 
 var btn = $.fn.button.noConflict(); // reverts $.fn.button to jqueryui btn

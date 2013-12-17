@@ -1,3 +1,6 @@
+
+/*@author Nathan Merkley*/
+
 var lastRequest = 0;
 var username = "";
 var currentChannel = "";

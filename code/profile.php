@@ -1,3 +1,5 @@
+
+<!-- @author Michael Kushlan -->
 <?php
 	session_start();
 	
@@ -6,7 +8,7 @@
 	
 	if(isset($_POST['updateInfo']))
 	{
-		$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
+		$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
 		$abInfo = $_POST['abInfo'];
 		echo $abInfo;
 		$avImage = $_POST['avImage'];
@@ -15,7 +17,7 @@
 		$sql->query("UPDATE users SET image='$avImage', aboutInfo='$abInfo' WHERE username='$usname'");
 	}
 	
-	$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
+	$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
 	if ($sql->connect_errno) 
 	{
 		printf("Connect failed: %s\n", $mysqli->connect_error);

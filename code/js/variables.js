@@ -1,4 +1,5 @@
 
+/*@author Kade Nethercott*/
 
 var map = {
   title: "start map",

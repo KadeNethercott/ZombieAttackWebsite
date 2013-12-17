@@ -1,3 +1,5 @@
+<!-- @author Nathan Merkley -->
+
 <?php
 	$page = $_POST['action'];
 	$method = "POST";

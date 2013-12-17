@@ -1,3 +1,5 @@
+
+<!-- @author Kade Nethercott and Nathan Merkley -->
 <?php
 	session_start();
 	
@@ -25,7 +27,7 @@
 	<link type="text/css" rel="stylesheet" href="css/maps.css" />
 	<script src="js/bootstrap.js"></script>
 	<script src="js/maps.js"></script>
-	<!--<script src="js/Chat.js"></script>-->
+	<script src="js/Chat.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -96,8 +98,8 @@
 		}
 		if((isset($_POST['mapname']) && isset($searchby)) || $mymaps == true)
 		{
-			$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
-			//$sql = new mysqli("129.123.224.49", "zombieattack", "zattacksite", "cs3450");//Set up the sql connection
+			$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
+			//$sql = new mysqli("129.123.224.49", "zombieattack", "*****", "*****");//Set up the sql connection
 			if ($sql->connect_errno) 
 				exit('There was a problem connecting to the database');
 					

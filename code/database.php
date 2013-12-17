@@ -1,3 +1,5 @@
+<!-- @author Nathan Merkley and Kade Nethercott -->
+
 <?php
 session_start();
 
@@ -12,8 +14,8 @@ if(isset($_POST['username']) && isset($_POST['password']))
 		$_SESSION['password'] = hash("md5", $_SESSION['password']);
 }
 
-	$sql = new mysqli("localhost", "zombieattack", "zattacksite", "cs3450");
-	//$sql = new mysqli("129.123.224.49", "zombieattack", "zattacksite", "cs3450");//Set up the sql connection
+	$sql = new mysqli("localhost", "zombieattack", "*****", "*****");
+	//$sql = new mysqli("129.123.224.49", "zombieattack", "*****", "*****");//Set up the sql connection
 if ($sql->connect_errno) 
 	exit('{"status": -4, "message": "Connection failure"}');
 	

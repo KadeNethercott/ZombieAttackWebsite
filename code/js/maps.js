@@ -1,3 +1,6 @@
+
+
+/*@author Kade Nethercott*/
 $(document).ready(function(){
 	
 var map = {

@@ -1,3 +1,5 @@
+
+<!-- @author Kade Nethercott -->
 <?php
 	session_start();
 	
@@ -364,7 +366,7 @@
 		<script src="js/variables.js"></script>
 		<script src="js/dialogBoxes.js"></script>
 		<script src="js/canvas.js"></script>
-		<!--<script src="js/Chat.js"></script>-->
+		<script src="js/Chat.js"></script>
 		
 	</body>
 	
